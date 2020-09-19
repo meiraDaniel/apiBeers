@@ -47,4 +47,4 @@ $ python manage.py runserver
 
 ![alt text](https://github.com/meiraDaniel/apiBeers/blob/master/imgs/HeaderToken.png?raw=true)
 
-> Obs: imagens feitas utilizando o Postman
+> Obs: testes de requisição da API feitas utilizando o Postman.
