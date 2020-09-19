@@ -36,18 +36,18 @@ $ python manage.py runserver
 
 - Após inicialiazar o servidor, é possível realizar o cadastro de um novo usuário na url api/register/, passando no body da requisição os dados do novo usuário, como no exemplo abaixo. Esse endpoint só permite metodos post, não sendo possível recuperar a lista de usuários.
 
-![alt text](https://github.com/meiraDaniel/apiEvoe/blob/master/imgs/Register.png?raw=true)
+![alt text](https://github.com/meiraDaniel/apiBeers/blob/master/imgs/Register.png?raw=true)
 
 
 - Com o novo usuário em mãos faça o login na url api/login, utilizando no body da requisição os dados cadastrados, como no exemplo abaixo:
 
-![alt text](https://github.com/meiraDaniel/apiEvoe/blob/master/imgs/Login.png?raw=true)
+![alt text](https://github.com/meiraDaniel/apiBeers/blob/master/imgs/Login.png?raw=true)
 
 
 - Se a requisição for feita com sucesso, será retornado como resposta um token de acesso JWT, com tempo de vida de 1 hora.
 - Com esse token em mãos é possível realizar as operações CRUD, disponíveis na url api/beers passando o token no header da requisição, como no exemplo abaixo.
 
-![alt text](https://github.com/meiraDaniel/apiEvoe/blob/master/imgs/HeaderToken.png?raw=true)
+![alt text](https://github.com/meiraDaniel/apiBeers/blob/master/imgs/HeaderToken.png?raw=true)
 
 
 > Obs: imagens feitas utilizando o Postman
