@@ -36,7 +36,7 @@ $ python manage.py runserver
 
 - Após inicialiazar o servidor, é possível realizar o cadastro de um novo usuário na url api/register/, passando no body da requisição os dados do novo usuário, como no exemplo abaixo. Esse endpoint só permite metodos post, não sendo possível recuperar a lista de usuários.
 
-![alt text](https://github.com/meiraDaniel/apiBeers/blob/master/imgs/Register.png?raw=true)
+![alt text](https://github.com/meiraDaniel/apiBeers/blob/master/imgs/Regiser.png?raw=true)
 
 
 - Com o novo usuário em mãos faça o login na url api/login, utilizando no body da requisição os dados cadastrados, como no exemplo abaixo:
